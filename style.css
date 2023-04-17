@@ -26,7 +26,8 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
@@ -34,3 +35,13 @@ th {
 .rightalign {
   text-align: right;
 }
+
+.headerstyle {
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Slider */
+
+/* Slider */
