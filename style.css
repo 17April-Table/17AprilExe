@@ -1,0 +1,20 @@
+#Stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    border-left: 10px;
+}
+#fourCol{
+    width: 280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+#fourCol span{
+    
+}
