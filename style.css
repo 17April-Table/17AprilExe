@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.block {
+  display: block;
+  background-color: rgb(82, 209, 112);
+  width: 55px;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+}
+.all {
+  display: flex;
+}
+#one {
+  flex: 0 0 10%;
+}
+#two {
+  flex: 0 0 60%;
+}
+#three {
+  flex: 0 0 30%;
+}
+
+.padding {
+  padding-left: 10px;
+}
