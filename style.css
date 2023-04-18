@@ -42,6 +42,39 @@ th {
   text-decoration: none;
 }
 
-/* Slider */
+.namesf {
+  font-size: 6px;
+  color: grey;
+  display: inline;
+}
 
-/* Slider */
+.stockgraph {
+  width: 100px;
+}
+
+nav {
+  padding-top: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: black;
+  transition: 0.3s;
+}
