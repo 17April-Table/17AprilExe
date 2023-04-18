@@ -8,7 +8,9 @@ html {
   width: 55px;
   color: white;
   border-radius: 5px;
-  height: 30px;
+  height: 20px;
+  margin-left: 10px;
+  /***********************MICHAEL*************************/
 }
 .all {
   display: flex;
@@ -26,3 +28,23 @@ html {
 .padding {
   padding-left: 10px;
 }
+
+.sall {
+  color: rgb(128, 128, 128);
+  display: flex;
+}
+
+.pad {
+  padding-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.pad {
+  color: rgb(114, 116, 116);
+  text-decoration: none;
+}
+/***********************MICHAEL*************************/
