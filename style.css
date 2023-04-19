@@ -1,80 +1,132 @@
-#Stats {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-span {
-  border-left: 10px;
-}
-#fourCol {
-  width: 280px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  border-radius: 15px;
-  text-align: left;
-  font-size: 20px;
-}
-#fourCol span {
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
+@ -1,50 +0,0 @@
+html {
+  height: 100%;
   width: 100%;
 }
-
-td,
-th {
-  border-bottom: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+.block {
+  display: block;
+  background-color: rgb(82, 209, 112);
+  width: 55px;
+  color: white;
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 10px;
+  /***********************MICHAEL*************************/
 }
-
-.rightalign {
-  text-align: right;
-}
-
-.headerstyle {
-  font-size: 10px;
-  color: black;
-  text-decoration: none;
-}
-
-.namesf {
-  font-size: 6px;
-  color: grey;
-  display: inline;
-}
-
-.stockgraph {
-  width: 100px;
-}
-
-nav {
-  padding-top: 40px;
-}
-
-ul {
+.all {
   display: flex;
-  justify-content: flex-start;
+}
+#one {
+  flex: 0 0 10%;
+}
+#two {
+  flex: 0 0 60%;
+}
+#three {
+  flex: 0 0 30%;
 }
 
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px;
+.padding {
+  padding-left: 10px;
 }
 
-nav ul li a {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: grey;
+.sall {
+  color: rgb(128, 128, 128);
+  display: flex;
+}
+
+.pad {
+  padding-left: 50px;
+}
+
+a {
   text-decoration: none;
-  font-weight: bold;
+  color: black;
 }
 
-nav ul li a:hover {
-  color: black;
-  transition: 0.3s;
+a.pad {
+  color: rgb(114, 116, 116);
+  text-decoration: none;
 }
+/***********************MICHAEL*************************/
+
+#Stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  span {
+    border-left: 10px;
+  }
+  #fourCol {
+    width: 280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 20px;
+  }
+  #fourCol span {
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .rightalign {
+    text-align: right;
+  }
+  
+  .headerstyle {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .namesf {
+    font-size: 6px;
+    color: grey;
+    display: inline;
+  }
+  
+  .stockgraph {
+    width: 100px;
+  }
+  
+  nav {
+    padding-top: 40px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+    transition: 0.3s;
+  }
